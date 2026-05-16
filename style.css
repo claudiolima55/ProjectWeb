@@ -1,0 +1,63 @@
+/* style.css */
+
+/* Para todo o documento */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centralizar o container */
+.container{
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Centrar elementos do body com as suas configurações */
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #5b86e5, #36d1dc);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Configuracao do "Skycast" */
+.header h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Configuracao do paragrafo abaixo do "Skycast" */
+.header p{
+    font-size: 18px;
+    color: white;
+}
+
+.search{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search input{
+    width: 320px;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search button{
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    font-size: 18px;
+}

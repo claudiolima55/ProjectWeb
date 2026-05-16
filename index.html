@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css">
+    <title>SkyCast</title>
 </head>
 <body>
 
-    <h1>Welcome to the HomePage</h1> 
+    <div id="container">
+        <header class="header">
+            <h1>SkyCast</h1>
+            <p>Consulta a meteorologia em tempo real</p>
+        </header>
+
+        <section class="search">
+            <input type="text" id="city-input" placeholder="Pesquisar cidade...">
+            <button id="searchButton">
+                    🔍
+                </button>
+        </section>
+
+        <section class="weather-info">
+            <h2 id="city-name">Cidade</h2>
+                
+            <div class="temperature">
+                    <span id="temperature">--</span>°C
+            </div>
+            
+            <div class="weather-details">
+            <div>
+                <h3>Humidade</h3>
+                <p id="humidity">--%</p>
+            </div>
+
+            <div>
+                <h3>Vento</h3>
+                <p id="wind">-- km/h</p>
+            </div>
+            </div>
+        
+        </section>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
